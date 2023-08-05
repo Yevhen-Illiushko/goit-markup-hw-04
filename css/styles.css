@@ -206,6 +206,17 @@ width: calc((100% - 3 * 24px) / 4);
         color: var(--navy-blue);
         letter-spacing: 0.02em;
     }
+
+    .section-three{
+    padding-bottom: 120px;
+    }
+    .section-three-title{
+        margin-bottom: 72px;
+    }
+    .section-three-list {
+        gap: 24px;
+    }
+
     .section-four {
         background-color: #F4F4FD;
     }
