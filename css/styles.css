@@ -130,10 +130,13 @@ body{font-family: "Roboto", sans-serif;
     letter-spacing: 0.32px;}
 
 .section-one {
+    padding: 188px 0;
     text-align: center;
     background: var(--navyblue, #2E2F42);}
 
-.section-one-text {color: var(--white, #FFF);
+.section-one-text {
+    max-width: 496px;
+    color: var(--white, #FFF);
     font-family: Roboto;
     font-size: 56px;
     font-style: normal;
@@ -143,6 +146,11 @@ body{font-family: "Roboto", sans-serif;
     text-align: center;}
 
 .section-one-button {
+    order-radius: 4px;
+    border: none;
+    height: 56px;
+    min-width: 169px;
+    display: block;
     background-color: var(--iris);
     font-family: "Roboto", sans-serif;
     font-weight: 500;
