@@ -94,7 +94,7 @@ body{font-family: "Roboto", sans-serif;
 
 .logo-accent {color:#2e2f42}
 
-.address-list {
+.address {
         display: flex;
         gap: 40px;
     }
