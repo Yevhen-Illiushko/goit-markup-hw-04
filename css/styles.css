@@ -85,16 +85,16 @@ body{font-family: "Roboto", sans-serif;
         .contact-link.link:focus
         {color: #404bbf;}
 
-    .link {
+.link {
     text-decoration: none;}
 
-    .logo-accent {color:#2e2f42}
+.logo-accent {color:#2e2f42}
 
-    .address-list {
+.address-list {
         display: flex;
         gap: 40px;
     }
-    
+
 .nav-list.link {
     padding: 24px 0;
     color: var(--navyblue, #2E2F42);
