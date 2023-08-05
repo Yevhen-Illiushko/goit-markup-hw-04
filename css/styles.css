@@ -190,6 +190,7 @@ body{font-family: "Roboto", sans-serif;
     gap: 24px;
 }
 .section-two-list-element {
+    display: flex;
 width: calc((100% - 3 * 24px) / 4);
 }
 
@@ -219,6 +220,7 @@ width: calc((100% - 3 * 24px) / 4);
     }
 
 .section-four-list {
+    display: flex;
 border-radius: 0px 0px 4px 4px;
 gap: 24px;
 background-color: #FFFFFF;
