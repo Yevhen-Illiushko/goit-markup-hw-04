@@ -39,10 +39,6 @@ body{font-family: "Roboto", sans-serif;
     border-bottom: 1px solid #e7e9fc;
 }
 
-.address-list {
-        display: flex;
-        gap: 40px;
-    }
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -98,7 +94,10 @@ body{font-family: "Roboto", sans-serif;
 
 .logo-accent {color:#2e2f42}
 
-
+.address-list {
+        display: flex;
+        gap: 40px;
+    }
 
 .nav-list.link {
     padding: 24px 0;
