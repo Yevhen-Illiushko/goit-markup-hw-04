@@ -189,9 +189,9 @@ body{font-family: "Roboto", sans-serif;
 .section-two-list {
     gap: 24px;
 }
-.section-two-list-element {
-    display: flex;
-width: calc((100% - 3 * 24px) / 4);
+.section-two-list-element:first-child {
+
+width: calc((100% - 72px) / 4);
 }
 
     .section-three-title,
@@ -220,7 +220,7 @@ width: calc((100% - 3 * 24px) / 4);
     }
 
 .section-four-list {
-    display: flex;
+display: flex;
 border-radius: 0px 0px 4px 4px;
 gap: 24px;
 background-color: #FFFFFF;
@@ -236,8 +236,11 @@ background-color: #FFFFFF;
     margin-bottom: 8px;
 
 }
+.section-four-list:first-child {
+calc((100% - 72px) / 4);}
+
 .section-four-list:last-child {
-    margin-right: 0;
+margin-right: 0
 }
 
 .woker-name {
