@@ -122,14 +122,6 @@ body{font-family: "Roboto", sans-serif;
 
 .list {list-style: none}
 
-.contact-link {color: var(--state, #434455);
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;}
-
 .section-one {
     padding: 188px 0;
     text-align: center;
