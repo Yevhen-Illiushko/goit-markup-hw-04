@@ -221,9 +221,16 @@ width: calc((100% - 72px) / 4);
 
 .section-four-list {
 display: flex;
-border-radius: 0px 0px 4px 4px;
 gap: 24px;
+border-radius: 0px 0px 4px 4px;
 background-color: #FFFFFF;
+}
+
+.section-four-list:first-child {
+calc((100% - 72px) / 4);}
+
+.section-four-list:last-child {
+margin-right: 0;
 }
 
 .section-four-title-name {
@@ -235,12 +242,6 @@ background-color: #FFFFFF;
     text-align: center;
     margin-bottom: 8px;
 
-}
-.section-four-list:first-child {
-calc((100% - 72px) / 4);}
-
-.section-four-list:last-child {
-margin-right: 0
 }
 
 .woker-name {
