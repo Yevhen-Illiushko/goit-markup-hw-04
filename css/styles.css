@@ -29,13 +29,14 @@ body{font-family: "Roboto", sans-serif;
 }
 
 .container {
-    max-width: 1158;
+    max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 .header-container {
     display: flex;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .visually-hidden {
@@ -57,6 +58,12 @@ body{font-family: "Roboto", sans-serif;
 
 .nav-header {
     display: flex;
+    align-items: center;    
+}
+
+.nav-list {
+    display: flex;
+        gap: 40px;
 }
 
 .logo-link.link {
@@ -66,7 +73,8 @@ body{font-family: "Roboto", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--iris);}
+    color: var(--iris);
+    margin-right: 76px}
 
 
         .logo-link.link:hover,
@@ -82,7 +90,9 @@ body{font-family: "Roboto", sans-serif;
 
     .logo-accent {color:#2e2f42}
 
-.nav-list.link {color: var(--navyblue, #2E2F42);
+.nav-list.link {
+
+    color: var(--navyblue, #2E2F42);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
