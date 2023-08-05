@@ -109,6 +109,11 @@ body{font-family: "Roboto", sans-serif;
     line-height: 24px;
     letter-spacing: 0.32px;}
 
+    .address-list {
+        display: flex;
+        gap: 40px;
+    }
+
     .contact-link {
     color: var(--slate, #434455);
     font-family: Roboto;
