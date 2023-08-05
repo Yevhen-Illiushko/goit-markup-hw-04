@@ -27,18 +27,6 @@ body{font-family: "Roboto", sans-serif;
     color: var(--state);
     background-color: var(--white);
 }
-
-.container {
-    width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
-}
-
-.header-container {
-    display: flex;
-    border-bottom: 1px solid #e7e9fc;
-}
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -50,9 +38,29 @@ body{font-family: "Roboto", sans-serif;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
-.list {list-style: none;}
+.header-container {
+    display: flex;
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.address-list {
+    display: flex;
+    gap: 40px;
+}
+
+
+}
+
+.list {list-style: none;
+     display: flex;
+        gap: 40px;}
 
 .link {text-decoration: none;}
 
@@ -61,10 +69,6 @@ body{font-family: "Roboto", sans-serif;
     align-items: center;    
 }
 
-.list {
-    display: flex;
-        gap: 40px;
-}
 
 .logo-link.link {
 
@@ -94,10 +98,7 @@ body{font-family: "Roboto", sans-serif;
 
 .logo-accent {color:#2e2f42}
 
-.address-list {
-        display: flex;
-        gap: 40px;
-    }
+
 
 .nav-list.link {
     padding: 24px 0;
