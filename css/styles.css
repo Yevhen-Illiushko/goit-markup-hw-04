@@ -220,7 +220,6 @@ width: calc((100% - 3 * 24px) / 4);
 
 .section-four-list {
 border-radius: 0px 0px 4px 4px;
-
 gap: 24px;
 background-color: #FFFFFF;
 }
@@ -235,11 +234,17 @@ background-color: #FFFFFF;
     margin-bottom: 8px;
 
 }
+.section-four-list:last-child {
+    margin-right: 0;
+}
 
 .woker-name {
     padding: 32px 0;
 }
 
+.section-four-title {
+    margin-bottom: 72px;
+}
     .section-four-text {
         text-align: center;
         margin-bottom: 72px;
