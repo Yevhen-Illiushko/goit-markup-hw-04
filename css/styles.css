@@ -264,3 +264,8 @@ background-color: #FFFFFF;
             color: var(--white);
             background-color: var(--ocean);
         }
+        .section-p {
+            padding-top: 96px;
+            padding-bottom: 120px;
+            
+        }
