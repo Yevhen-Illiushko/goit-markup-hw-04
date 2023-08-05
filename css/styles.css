@@ -56,6 +56,11 @@ body{font-family: "Roboto", sans-serif;
 
 .link {text-decoration: none;}
 
+.address-list {
+        display: flex;
+        gap: 40px;
+    }
+    
 .nav-header {
     display: flex;
     align-items: center;    
@@ -94,10 +99,7 @@ body{font-family: "Roboto", sans-serif;
 
 .logo-accent {color:#2e2f42}
 
-.address-list {
-        display: flex;
-        gap: 40px;
-    }
+
 
 .nav-list.link {
     padding: 24px 0;
