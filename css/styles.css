@@ -194,7 +194,7 @@ body{font-family: "Roboto", sans-serif;
 .section-two-list {
     gap: 24px;
 }
-.item-sec-2:first-child {
+.section-two-list-element:first-child {
 
 width: calc((100% - 72px) / 4);
 }
