@@ -109,6 +109,17 @@ body{font-family: "Roboto", sans-serif;
     line-height: 24px;
     letter-spacing: 0.32px;}
 
+    .contact-link {
+    color: var(--slate, #434455);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+
+    }
+
 .list {list-style: none}
 
 .contact-link {color: var(--state, #434455);
