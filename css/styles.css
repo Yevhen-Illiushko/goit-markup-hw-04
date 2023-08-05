@@ -56,7 +56,7 @@ body{font-family: "Roboto", sans-serif;
 
 .link {text-decoration: none;}
 
-.address .list {
+.address {
         display: flex;
         gap: 40px;
     }
