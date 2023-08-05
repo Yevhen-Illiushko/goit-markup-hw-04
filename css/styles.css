@@ -58,6 +58,8 @@ body{font-family: "Roboto", sans-serif;
 
 .address {
         display: flex;
+    }
+    .item {
         gap: 40px;
     }
 
@@ -70,6 +72,7 @@ body{font-family: "Roboto", sans-serif;
     display: flex;
         gap: 40px;
 }
+
 
 .logo-link.link {
 
