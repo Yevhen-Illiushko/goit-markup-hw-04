@@ -60,7 +60,7 @@ body{font-family: "Roboto", sans-serif;
         display: flex;
         gap: 40px;
     }
-    
+
 .nav-header {
     display: flex;
     align-items: center;    
@@ -210,10 +210,10 @@ width: calc((100% - 72px) / 4);
     padding-bottom: 120px;
     }
     .section-three-title {
-        margin-bottom: 72px;
+    margin-bottom: 72px;
     }
     .section-three-list {
-        gap: 24px;
+    gap: 24px;
     }
 
     .section-four {
@@ -229,7 +229,7 @@ background-color: #FFFFFF;
 }
 
 .section-four-list:first-child {
-calc((100% - 72px) / 4);}
+    width: calc((100% - 72px) / 4);}
 
 .section-four-list:last-child {
 margin-right: 0;
