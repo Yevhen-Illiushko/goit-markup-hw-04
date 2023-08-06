@@ -59,6 +59,10 @@ margin: 0;}
 
 .link {text-decoration: none;}
 
+.header-link {
+    display: flex;
+    gap: 40px;}
+
 .address {
        margin-left: auto;
     }
@@ -68,9 +72,9 @@ margin: 0;}
     }
 
 .nav-header {
-    display: flex;
+    
     align-items: center;    
-    gap: 40px;
+    
 }
 
 }
