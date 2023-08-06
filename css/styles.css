@@ -215,6 +215,7 @@ margin: 0;}
 }
 
 .section-two-list {
+    display: flex;
     gap: 24px;
 }
 .section-two-list-element:first-child {
