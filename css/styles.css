@@ -70,10 +70,9 @@ margin: 0;}
 .nav-header {
     display: flex;
     align-items: center;    
-}
-.nav-list-link {
-    display: flex;
     gap: 40px;
+}
+
 }
 
 .address-list {
