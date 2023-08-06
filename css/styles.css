@@ -58,10 +58,11 @@ body{font-family: "Roboto", sans-serif;
 
 .address {
         display: flex;
+        gap: 40px;
     }
     .item {
         display: flex;
-        gap: 40px;
+        
     }
 
 .nav-header {
