@@ -71,6 +71,7 @@ margin: 0;}
     }
 
 .nav-header {
+    display: flex;
     gap: 40px;
     align-items: center;    
     
