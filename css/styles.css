@@ -341,14 +341,14 @@ margin-right: 0;
 
         }
         .list-p {
-            display: flex;
+            
             justify-content: center;
             gap: 24px;
             margin-bottom: 72px;
         }
 
    .list-p2 {
-       display: flex;
+       
        flex-wrap: wrap;
        justify-content: center;
        row-gap: 48px;
