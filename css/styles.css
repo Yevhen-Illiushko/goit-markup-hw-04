@@ -331,9 +331,9 @@ margin-right: 0;
 
         .button-p:hover,
         .button-p:focus {
-            border: 1px solid;
             color: var(--white);
             background-color: var(--ocean);
+            border: 1px solid transparent;
         }
         .section-p {
             padding-top: 96px;
@@ -346,3 +346,15 @@ margin-right: 0;
             gap: 24px;
             margin-bottom: 72px;
         }
+
+   .list-p2 {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       row-gap: 48px;
+        column-gap: 24px;
+        
+   }
+   .item-p {
+    width: calc((100% - 48px) / 3);
+   }
