@@ -222,9 +222,7 @@ margin: 0;}
     display: flex;
     gap: 24px;
 }
-.section-two-list-element:first-child {
-
-
+.section-two-list-element{
 width: calc((100% - 72px) / 4);
 }
 
@@ -261,10 +259,10 @@ border-radius: 0px 0px 4px 4px;
 background-color: #FFFFFF;
 }
 
-.section-four-list:first-child {
+.section-four-item:first-child {
     width: calc((100% - 72px) / 4);}
 
-.section-four-list:last-child {
+.section-four-item:last-child {
 margin-right: 0;
 }
 
@@ -347,7 +345,7 @@ margin-right: 0;
             margin-bottom: 72px;
         }
 
-   .list-p2 {
+   .list-p-second {
        display: flex;
        flex-wrap: wrap;
        justify-content: center;
