@@ -259,6 +259,9 @@ border-radius: 0px 0px 4px 4px;
 background-color: #FFFFFF;
 }
 
+.section-four-item
+{border-radius: 0px 0px 4px 4px;}
+
 .section-four-item:first-child {
     width: calc((100% - 72px) / 4);}
 
