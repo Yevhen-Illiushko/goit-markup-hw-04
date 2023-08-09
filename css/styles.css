@@ -365,3 +365,11 @@ margin-right: 0;
     border-top: none;
     margin-bottom: 8px
    }
+    .titie-p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    margin-bottom: 8px
+           }
