@@ -357,6 +357,20 @@ margin-right: 0;
         height: 40px;
     }
 
+    .socials-logo-link {
+        width: 100%;
+        height: 100%;
+        background-color: var(--iris);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+ .socials-logo-link:hover,
+ .socials-logo-link:focus {
+    background-color: #404bbf;
+ }
 
     .footer {
         padding: 100px 0;
