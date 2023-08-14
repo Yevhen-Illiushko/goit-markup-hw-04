@@ -346,6 +346,18 @@ margin-right: 0;
         color: var(--state);
     }
 
+    .socials {
+        display: flex;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .socials-item {
+        width: 40px;
+        height: 40px;
+    }
+
+
     .footer {
         padding: 100px 0;
         background-color: var(--navy-blue);
