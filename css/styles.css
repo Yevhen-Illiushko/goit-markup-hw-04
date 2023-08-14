@@ -372,6 +372,10 @@ margin-right: 0;
     background-color: #404bbf;
  }
 
+ .svg-logo {
+   color: #f4f4fd;
+ }
+
     .footer {
         padding: 100px 0;
         background-color: var(--navy-blue);
