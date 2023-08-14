@@ -161,6 +161,7 @@ margin: 0;}
 
 
 .section-one {
+    max-width: 1440px;
     padding: 188px 0;
     text-align: center;
     background: var(--navyblue, #2E2F42);}
@@ -211,6 +212,30 @@ margin: 0;}
 .section-two {
     padding: 120px 0;
 }
+
+ .logo-icon {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .logo-icon-wrapper {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 264px;
+     height: 112px;
+     margin-bottom: 8px;
+     flex-shrink: 0;
+     border-radius: 4px;
+     background: var(--cloud, #F4F4FD);
+ }
+
+
+ /* <svg class="" width="" height="">
+ <use href="/images/icons.svg#"></use>
+ </svg> */
+
 
     .section-two-title,
     .titie-p
@@ -391,25 +416,4 @@ margin-right: 0;
     margin-bottom: 8px
            }
 
-  .logo-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-                   
-    .logo-icon-wrapper {
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    width: 264px;
-    height: 112px;
-    margin-bottom: 8px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    background: var(--cloud, #F4F4FD);
-}
-                   
-
- /* <svg class="" width="" height="">
- <use href="/images/icons.svg#"></use>
- </svg> */
+ 
