@@ -39,6 +39,8 @@ body{font-family: "Roboto", sans-serif;
     border-bottom: 1px solid #e7e9fc;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px 
+    rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .visually-hidden {
@@ -387,3 +389,25 @@ margin-right: 0;
     color: var(--navy-blue);
     margin-bottom: 8px
            }
+
+  .logo-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+                   
+    .logo-icon-wrapper {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--cloud, #F4F4FD);
+}
+                   
+
+ /* <svg class="" width="" height="">
+ <use href="/images/icons.svg#"></use>
+ </svg> */
