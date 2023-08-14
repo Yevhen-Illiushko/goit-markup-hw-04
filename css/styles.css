@@ -220,7 +220,7 @@ margin: 0;}
         line-height: 1.2;
         letter-spacing: 0.02em;
          color: var(--navy-blue);
-        margin-bottom: 8px;
+        
     }
     .section-two-text {
         line-height: 1.5;
@@ -403,6 +403,7 @@ margin-right: 0;
     align-items: center;
     width: 264px;
     height: 112px;
+    margin-bottom: 8px;
     flex-shrink: 0;
     border-radius: 4px;
     background: var(--cloud, #F4F4FD);
