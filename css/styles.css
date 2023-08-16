@@ -92,10 +92,10 @@ margin: 0;}
     }
 
     .link-switch::before {
-        content: "Studio", "Portfolio";
+        content: "Studio";
     }
     .link-switch::after {
-        content: "Studio", "Portfolio";
+        content: "Studio";
         position: absolute;
         left: 0;
         bottom: -1px;
