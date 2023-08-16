@@ -86,7 +86,7 @@ margin: 0;}
 }
 
     .link-switch {
-        
+        color: #404bbf; 
         position: relative; 
         
     }
@@ -157,10 +157,10 @@ margin: 0;}
 
 
 
-.nav-list {
-    color: #404bbf; 
+.nav-list.link {
+    
     padding: 24px 0;
-   
+    color: var(--navyblue, #2E2F42);
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
