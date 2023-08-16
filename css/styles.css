@@ -85,9 +85,14 @@ margin: 0;}
 }
 
     .link-switch {
+        
         position: relative; 
         color: #404bbf;
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .link-switch::before {
+        content: "Studio", "Portfolio";
     }
     .link-switch::after {
         content: "Studio", "Portfolio";
