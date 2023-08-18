@@ -426,6 +426,7 @@ margin-right: 0;
     gap: 24px;}
 
     .sectiom-five-list-item {
+        display: flex;
     width: calc((100% - 120px) / 6);
     height: 88px;
  }
