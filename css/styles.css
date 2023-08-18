@@ -441,11 +441,22 @@ align-items: center;
 color: var(--light-slate);
 }
 
-.section-five-logo:focus,
-.section-five-logo:hover {
+.svg-logo:focus,
+.svg-five-logo:hover {
     border-color: #404bbf;
     color: #404bbf; 
 }
+
+
+.svg-logo {
+fill: currentColor;
+    }
+    
+    .section-five-logo:focus,
+    .section-five-logo:hover {
+        border-color: #404bbf;
+        color: #404bbf; 
+    }
 
     .footer {
         padding: 100px 0;
