@@ -443,14 +443,14 @@ align-items: center;
 color: var(--light-slate);
 }
 
-.svg-logo:focus,
+.svg-five-logo:focus,
 .svg-five-logo:hover {
     border-color: #404bbf;
     color: #404bbf; 
 }
 
 
-.svg-logo {
+.svg-five-logo {
 fill: currentColor;
     }
     
