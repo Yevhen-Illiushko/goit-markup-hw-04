@@ -452,23 +452,33 @@ color: var(--light-slate);
 
 .svg-five-logo {
 fill: currentColor;
-    }
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+    
     
     .section-five-logo:focus,
     .section-five-logo:hover {
         border-color: #404bbf;
         color: #404bbf; 
     }
-.sectiom-five-list-item {
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-     color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+.sectiom-five-list-item 
+    
+
 
 
     .footer {
         padding: 100px 0;
         background-color: var(--navy-blue);
     }
+.footer-div {
+    display: flex;
+    align-items: baseline;
+}
+.footer-div-logo {
+    margin-right: 120px;
+}
+
     .logo-accent-dark {
         color: #f4f4fd; 
     }
