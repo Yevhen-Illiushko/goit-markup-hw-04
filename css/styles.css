@@ -479,10 +479,13 @@ fill: currentColor;
 .footer-div {
     display: flex;
     align-items: baseline;
-    gap: 16px;
+    
 }
 .footer-div-logo {
     margin-right: 120px;
+}
+.socials-list-footer {
+gap: 16px;
 }
 
     .logo-accent-dark {
