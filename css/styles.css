@@ -472,8 +472,9 @@ fill: currentColor;
 
 
     .footer {
-        padding: 100px 0;
         background-color: var(--navy-blue);
+        padding: 100px 0;
+        
     }
 .footer-div {
     display: flex;
