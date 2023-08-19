@@ -478,9 +478,10 @@ fill: currentColor;
 .footer-div {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
 }
 .footer-div-logo {
-    margin-right: 120px;
+    
 }
 
     .logo-accent-dark {
