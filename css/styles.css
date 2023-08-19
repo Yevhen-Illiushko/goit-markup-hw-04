@@ -485,8 +485,12 @@ fill: currentColor;
     margin-right: 120px;
 }
 .socials-list-footer {
+display: flex;
 gap: 16px;
 }
+.socials-logo-link-footer:hover,
+.socials-logo-link-footer:focus {
+background-color: #31d0aa;}
 
     .logo-accent-dark {
         color: #f4f4fd; 
