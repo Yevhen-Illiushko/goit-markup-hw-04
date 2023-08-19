@@ -479,6 +479,7 @@ fill: currentColor;
 .footer-div {
     display: flex;
     align-items: baseline;
+    gap: 16px;
 }
 .footer-div-logo {
     margin-right: 120px;
@@ -489,7 +490,7 @@ fill: currentColor;
     }
     .footer-text {
         line-height: 1.5;
-        color: var(--cloud);
+        color: var(--white);
         letter-spacing: 0.02em;
         max-width: 264px;
         font-weight: 500;
