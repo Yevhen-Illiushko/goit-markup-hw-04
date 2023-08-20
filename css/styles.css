@@ -451,18 +451,7 @@ fill: currentColor;
 
 
 
-    .footer {
-        background-color: var(--navy-blue);
-        padding: 100px 0;
-        
-    }
-.footer-div {
-    display: flex;
-    align-items: baseline;
-    
-    
-}
-.footer-div-logo {
+    .footer-div-logo {
     margin-right: 120px;
 }
 .socials-list-footer {
@@ -496,8 +485,14 @@ background-color: #31d0aa;}
         font-weight: 500;
         font-size: 16px;
         margin-bottom: 16px;
-
+        margin-right: 120px;
     }
+    .footer {
+        background-color: var(--navy-blue);
+        padding: 100px 0;}
+    .footer-div {
+        display: flex;
+        align-items: baseline;}
 
     .modal {
         position: fixed;
@@ -565,6 +560,9 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         pointer-events: none;
 
     }
+
+
+    
 
     /* portfolio */
 
