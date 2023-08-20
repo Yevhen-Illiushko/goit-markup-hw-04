@@ -94,9 +94,11 @@ margin: 0;}
         position: relative; 
         
     }
-    .nav-list 
-        color: #404bbf; 
+    .nav-list {
+    color: #404bbf;
     
+}
+
 
 
     
