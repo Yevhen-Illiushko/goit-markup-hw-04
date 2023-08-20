@@ -64,7 +64,6 @@ margin: 0;}
 .link {text-decoration: none;}
  
 .current {
-    color: #404bbf; 
 
 }
 
@@ -96,8 +95,10 @@ margin: 0;}
         
     }
     .nav-list 
-
+        color: #404bbf; 
     
+
+
     
     .link-switch::after {
         content: "";
