@@ -447,9 +447,9 @@ fill: currentColor;
 
 /* footer */
 
-    .footer-div {
-        display: flex;
-        align-items: baseline;}  
+ .footer-div {
+display: flex;
+align-items: baseline;}  
 
  .footer-div-logo {
     margin-right: 120px;}
