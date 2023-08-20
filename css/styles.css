@@ -448,8 +448,13 @@ fill: currentColor;
 /* footer */
 
     .footer-div {
-    margin-right: 120px;
-}
+        display: flex;
+        align-items: baseline;}  
+
+ .footer-div-logo {
+    margin-right: 120px;}
+
+  
 .socials-list-footer {
 display: flex;
 gap: 16px;
@@ -481,13 +486,12 @@ background-color: #31d0aa;}
         font-weight: 500;
         font-size: 16px;
         margin-bottom: 16px;
-    }
+    } 
+
     .footer {
         background-color: var(--navy-blue);
         padding: 100px 0;}
-    .footer-div {
-        display: flex;
-        align-items: baseline;}
+  
 
     .modal {
         position: fixed;
